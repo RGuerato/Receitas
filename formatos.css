@@ -1,5 +1,8 @@
 body{
     background-color: wheat ;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 img{ 
@@ -8,8 +11,9 @@ img{
 }
 
 img , h1{
-    display: flex;
+    display: inline-block;
     flex-direction: row;
+    
 }
 footer{
     background-color: black;
