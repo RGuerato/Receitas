@@ -1,0 +1,8 @@
+#lasanha{
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    margin: 0 10 0 10px;
+}
