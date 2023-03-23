@@ -16,11 +16,9 @@ img{
     box-sizing: border-box;
     width: 300px;
     height: 200px;
-    text-align: center;
-}
-.container{
-    text-align: center;   
-}
-#canelone{
-    
+    }
+#receitas{
+    text-align: center;  
+    display: flex; 
+    flex-direction: row;
 }
