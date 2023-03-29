@@ -2,6 +2,9 @@ body{
     background-color: darksalmon;
     height: 500px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-y: auto;
+    max-width: 100%;
+    
 }
 
 .logo{ 
@@ -21,6 +24,7 @@ footer{
     left: 0;
     position: fixed;
     width: 100%;
+    height: 25px;
 }
 #corpo{
     display: flex;
@@ -31,4 +35,15 @@ footer{
 }
 p{
     text-align: center;
+}
+header{
+    height: 60px;
+    max-width: 5000px
+}
+main{
+    viewport-fit: 100vh - 100px;
+}
+#home , #ho , #rec , #cad{
+cursor: default;
+color: #fff;
 }
