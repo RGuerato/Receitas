@@ -1,7 +1,5 @@
 #frase{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    z-index: 1;
-    transform: translateX(60%)
-}
+    text-align: center;
+    margin: auto;
+    padding-top: 50px;
+    }
